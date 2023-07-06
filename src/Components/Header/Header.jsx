@@ -98,8 +98,8 @@ const Header = () => {
               <ul
                 className={
                   !open4
-                    ? "flex items-center gap-4 max-[800px]:absolute max-[800px]:top-[100px] max-[800px]:left-5 max-[800px]:w-full max-[800px]:flex-col max-[800px]:opacity-0 max-[800px]:bg-white max-[800px]:py-4"
-                    : "flex items-center gap-4 max-[800px]:absolute max-[800px]:top-[100px] max-[800px]:left-5 max-[800px]:w-full max-[800px]:flex-col max-[800px]:opacity-[1] max-[800px]:bg-white max-[800px]:py-4"
+                    ? "flex items-center gap-4 max-[800px]:absolute max-[800px]:top-[100px] max-[800px]:left-0 max-[800px]:w-full max-[800px]:flex-col max-[800px]:opacity-0 max-[800px]:bg-white max-[800px]:py-4"
+                    : "flex items-center gap-4 max-[800px]:absolute max-[800px]:top-[100px] max-[800px]:left-0 max-[800px]:w-full max-[800px]:flex-col max-[800px]:opacity-[1] max-[800px]:bg-white max-[800px]:py-4"
                 }
               >
                 <li
@@ -133,7 +133,7 @@ const Header = () => {
                 </div>
               </div>
               {open3 ? (
-                <div className="absolute top-[80px] left-[250px] w-[800px] bg-white shadow-lg z-[3] max-[800px]:top-[280px] max-[800px]:left-[10px] max-[800px]:w-full max-[1070px]:left-[20px]">
+                <div className="absolute top-[80px] left-[250px] w-[800px] bg-white shadow-lg z-[3] max-[800px]:top-[280px] max-[800px]:left-[0px] max-[800px]:w-full max-[1070px]:left-[20px]">
                   <div className="flex flex-col gap-2 px-4 py-2">
                     <div className="border-b-[1px] py-5 pl-5">
                       <h3 className="text-2xl font-medium max-[800px]:text-center">
