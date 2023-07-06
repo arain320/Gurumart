@@ -17,70 +17,69 @@ const Category = () => {
               Shop Our Top Categories
             </h2>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
-            <div className="flex  gap-2 sm:gap-5 flex-wrap mt-3 justify-evenly">
-              <div className="w-[190px] max-[430px]:w-[150px] h-[250px] relative rounded-lg overflow-hidden group text-center">
-                <img
-                  src={furniture}
-                  alt=""
-                  className="w-full block group-hover:scale-125 duration-500 ease-in-out transition-all"
-                />
-                <span className="absolute top-2 left-[50%] translate-x-[-50%] text-2xl text-white font-medium text-center">
-                  furniture{" "}
-                </span>
-              </div>
-              <div className="w-[190px] max-[430px]:w-[150px] h-[250px] relative rounded-lg overflow-hidden group">
-                <img
-                  src={handBag}
-                  alt=""
-                  className="w-full block group-hover:scale-125 duration-500 ease-in-out transition-all"
-                />
-                <span className="absolute top-2 left-[50%] translate-x-[-50%]  text-2xl text-white font-medium">
-                  Hand Bag
-                </span>
-              </div>
-              <div className="w-[190px] max-[430px]:w-[150px] h-[250px] relative rounded-lg overflow-hidden group">
-                <img
-                  src={book}
-                  alt=""
-                  className="w-full block group-hover:scale-125 duration-500 ease-in-out transition-all"
-                />
-                <span className="absolute top-2 left-[50%] translate-x-[-50%]  text-2xl text-white font-medium">
-                  Books
-                </span>
-              </div>
-              <div className="w-[190px] max-[430px]:w-[150px] h-[250px] relative rounded-lg overflow-hidden group">
-                <img
-                  src={tech}
-                  alt=""
-                  className="w-full block group-hover:scale-125 duration-500 ease-in-out transition-all"
-                />
-                <span className="absolute top-2 left-[50%] translate-x-[-50%]  text-2xl text-white font-medium">
-                  Tech
-                </span>
-              </div>
-              <div className="w-[190px] max-[430px]:w-[150px] h-[250px] relative rounded-lg overflow-hidden group">
-                <img
-                  src={sneaker}
-                  alt=""
-                  className="w-full block group-hover:scale-125 duration-500 ease-in-out transition-all"
-                />
-                <span className="absolute top-2 left-[50%] translate-x-[-50%]  text-2xl text-white font-medium">
-                  Sneakers
-                </span>
-              </div>
-              <div className="w-[190px] max-[430px]:w-[150px] h-[250px] relative rounded-lg overflow-hidden group">
-                <img
-                  src={travel}
-                  alt=""
-                  className="w-full block group-hover:scale-125 duration-500 ease-in-out transition-all"
-                />
-                <span className="absolute top-2 left-[50%] translate-x-[-50%]  text-2xl text-white font-medium">
-                  Travel
-                </span>
-              </div>
+
+          <div className="flex  gap-2 sm:gap-5 flex-wrap mt-3 justify-evenly">
+            <div className="w-[190px] max-[430px]:w-[150px] h-[250px] relative rounded-lg overflow-hidden group text-center">
+              <img
+                src={furniture}
+                alt=""
+                className="w-full block group-hover:scale-125 duration-500 ease-in-out transition-all"
+              />
+              <span className="absolute top-2 left-[50%] translate-x-[-50%] text-2xl text-white font-medium text-center">
+                furniture{" "}
+              </span>
             </div>
-          </ScrollAnimation>
+            <div className="w-[190px] max-[430px]:w-[150px] h-[250px] relative rounded-lg overflow-hidden group">
+              <img
+                src={handBag}
+                alt=""
+                className="w-full block group-hover:scale-125 duration-500 ease-in-out transition-all"
+              />
+              <span className="absolute top-2 left-[50%] translate-x-[-50%]  text-2xl text-white font-medium">
+                Bag
+              </span>
+            </div>
+            <div className="w-[190px] max-[430px]:w-[150px] h-[250px] relative rounded-lg overflow-hidden group">
+              <img
+                src={book}
+                alt=""
+                className="w-full block group-hover:scale-125 duration-500 ease-in-out transition-all"
+              />
+              <span className="absolute top-2 left-[50%] translate-x-[-50%]  text-2xl text-white font-medium">
+                Books
+              </span>
+            </div>
+            <div className="w-[190px] max-[430px]:w-[150px] h-[250px] relative rounded-lg overflow-hidden group">
+              <img
+                src={tech}
+                alt=""
+                className="w-full block group-hover:scale-125 duration-500 ease-in-out transition-all"
+              />
+              <span className="absolute top-2 left-[50%] translate-x-[-50%]  text-2xl text-white font-medium">
+                Tech
+              </span>
+            </div>
+            <div className="w-[190px] max-[430px]:w-[150px] h-[250px] relative rounded-lg overflow-hidden group">
+              <img
+                src={sneaker}
+                alt=""
+                className="w-full block group-hover:scale-125 duration-500 ease-in-out transition-all"
+              />
+              <span className="absolute top-2 left-[50%] translate-x-[-50%]  text-2xl text-white font-medium">
+                Sneakers
+              </span>
+            </div>
+            <div className="w-[190px] max-[430px]:w-[150px] h-[250px] relative rounded-lg overflow-hidden group">
+              <img
+                src={travel}
+                alt=""
+                className="w-full block group-hover:scale-125 duration-500 ease-in-out transition-all"
+              />
+              <span className="absolute top-2 left-[50%] translate-x-[-50%]  text-2xl text-white font-medium">
+                Travel
+              </span>
+            </div>
+          </div>
         </div>
       </section>
     </>
