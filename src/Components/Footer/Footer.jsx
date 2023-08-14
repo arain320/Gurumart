@@ -212,7 +212,7 @@ const Footer = () => {
               </div>
               <div>
                 <span>
-                  All Right reserved by Nasir | {day}/{month}/{year}{" "}
+                  All Right reserved by Nasir | {day}/{month}/{year}
                 </span>
               </div>
             </div>
