@@ -1,5 +1,4 @@
 import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/scrollbar";
@@ -17,11 +16,10 @@ const Deals = () => {
     <>
       <section className="w-full py-7">
         <div className="max-w-[1280px] w-full mx-auto flex flex-col gap-7 mt-6 px-3 ">
-          <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
-            <h3 className="text-3xl sm:text-4xl font-extrabold">
-              Todays Best Deals For You!
-            </h3>
-          </ScrollAnimation>
+          <h3 className="text-3xl sm:text-4xl font-extrabold">
+            Todays Best Deals For You!
+          </h3>
+
           <div className="flex justify-center items-center gap-3 mb-6">
             <Swiper
               slidesPerView={1}

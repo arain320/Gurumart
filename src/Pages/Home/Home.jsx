@@ -8,7 +8,6 @@ import Sale from "../../Components/Sale/Sale";
 import Popular from "../../Components/Popular/Popular";
 import Paraflex from "../../Components/Paraflex/Paraflex";
 import TodayDeals from "../../Components/TodayDeals/TodayDeals";
-import PaymentCard from "../../Components/PaymentCard/PaymentCard";
 import TrendingProduct from "../../Components/TrendingProduct/TrendingProduct";
 import BestStore from "../../Components/BestStore/BestStore";
 import Help from "../../Components/Help/Help";
@@ -26,7 +25,6 @@ const Home = () => {
       <Popular />
       <Paraflex />
       <TodayDeals />
-      <PaymentCard />
       <TrendingProduct />
       <BestStore />
       <Help />

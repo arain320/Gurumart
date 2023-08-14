@@ -1,6 +1,4 @@
 import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
-import Guru from "../../assets/Guru Mart.svg";
 import amazon from "../../assets/amazon.png";
 import gpay from "../../assets/gpay.png";
 import apay from "../../assets/ApplePay.png";
@@ -24,15 +22,12 @@ const Footer = () => {
         <div className="flex flex-col items-center gap-2 w-full mx-auto mt-1 p-4 pt-10 border-solid border-t-[1px] border-black">
           <div className="flex flex-wrap gap-3">
             <div className="flex-3 basis-[480px] flex flex-col gap-5">
-              <ScrollAnimation
-                duration={10}
-                animateIn="hinge"
-                initiallyVisible={true}
-              >
-                <div>
-                  <img src={Guru} alt="" />
-                </div>
-              </ScrollAnimation>
+              <div>
+                <h1 className="text-2xl font-bold">
+                  RB<span className="text-[#4365ee]">TRADER</span>
+                </h1>
+              </div>
+
               <div className="flex flex-col gap-3 px-3 leading-7">
                 <p className="capitalize">
                   I Saw this design in figma file and i try to convert it in
@@ -217,7 +212,7 @@ const Footer = () => {
               </div>
               <div>
                 <span>
-                  All Right reserved by Hasnain | {day}/{month}/{year}{" "}
+                  All Right reserved by Nasir | {day}/{month}/{year}{" "}
                 </span>
               </div>
             </div>

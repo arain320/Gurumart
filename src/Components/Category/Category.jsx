@@ -1,5 +1,4 @@
 import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
 import furniture from "../../assets/furniture.png";
 import handBag from "../../assets/handbag.png";
 import book from "../../assets/books.png";
@@ -12,11 +11,9 @@ const Category = () => {
     <>
       <section className="w-full py-6 px-2">
         <div className="max-w-[1280px] mx-auto w-full flex flex-col gap-5 px-3 py-8 mt-5">
-          <ScrollAnimation animateIn="fadeIn" duration={10}>
-            <h2 className="text-3xl sm:text-4xl font-extrabold">
-              Shop Our Top Categories
-            </h2>
-          </ScrollAnimation>
+          <h2 className="text-3xl sm:text-4xl font-extrabold">
+            Shop Our Top Categories
+          </h2>
 
           <div className="flex  gap-2 sm:gap-5 flex-wrap mt-3 justify-evenly">
             <div className="w-[190px] max-[430px]:w-[150px] h-[250px] relative rounded-lg overflow-hidden group text-center">

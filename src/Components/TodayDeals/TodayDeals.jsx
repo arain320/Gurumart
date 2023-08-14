@@ -1,5 +1,4 @@
 import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
 import heart from "../../assets/heart.svg";
 import star from "../../assets/star.svg";
 import slider13 from "../../assets/slider13.png";
@@ -16,39 +15,37 @@ const TodayDeals = () => {
     <>
       <section className="w-full py-6">
         <div className="max-w-[1280px] mx-auto w-full flex flex-col gap-5 px-3 py-8 mt-5">
-          <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
-            <h3 className="text-4xl font-extrabold">
-              Todays Best Deals For You!
-            </h3>
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
-            <div className="flex flex-wrap gap-5">
-              <button className="px-6 py-3 rounded-[20px] border-[1px] border-black">
-                Gadgets
-              </button>
-              <button className="px-6 py-3 rounded-[20px] border-[1px] border-black">
-                Fashion
-              </button>
-              <button className="px-6 py-3 rounded-[20px] border-[1px] border-black">
-                Toys
-              </button>
-              <button className="px-6 py-3 rounded-[20px] border-[1px] border-black">
-                Education
-              </button>
-              <button className="px-6 py-3 rounded-[20px] border-[1px] border-black">
-                Beauty
-              </button>
-              <button className="px-6 py-3 rounded-[20px] border-[1px] border-black">
-                Fitness
-              </button>
-              <button className="px-6 py-3 rounded-[20px] border-[1px] border-black">
-                Furnture
-              </button>
-              <button className="px-6 py-3 rounded-[20px] border-[1px] border-black">
-                Sneaker
-              </button>
-            </div>
-          </ScrollAnimation>
+          <h3 className="text-4xl font-extrabold">
+            Todays Best Deals For You!
+          </h3>
+
+          <div className="flex flex-wrap gap-5">
+            <button className="px-6 py-3 rounded-[20px] border-[1px] border-black">
+              Gadgets
+            </button>
+            <button className="px-6 py-3 rounded-[20px] border-[1px] border-black">
+              Fashion
+            </button>
+            <button className="px-6 py-3 rounded-[20px] border-[1px] border-black">
+              Toys
+            </button>
+            <button className="px-6 py-3 rounded-[20px] border-[1px] border-black">
+              Education
+            </button>
+            <button className="px-6 py-3 rounded-[20px] border-[1px] border-black">
+              Beauty
+            </button>
+            <button className="px-6 py-3 rounded-[20px] border-[1px] border-black">
+              Fitness
+            </button>
+            <button className="px-6 py-3 rounded-[20px] border-[1px] border-black">
+              Furnture
+            </button>
+            <button className="px-6 py-3 rounded-[20px] border-[1px] border-black">
+              Sneaker
+            </button>
+          </div>
+
           <div className="flex justify-center items-center gap-3 flex-wrap mt-2">
             <div className="w-[300px] h-[450px] flex flex-col bg-white rounded-2xl overflow-hidden mb-8">
               <div className="h-[65%] relative flex justify-center items-center bg-[#f5f6f6] rounded-2xl">
